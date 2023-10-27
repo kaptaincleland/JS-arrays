@@ -1,13 +1,16 @@
 var guests = ["mawudeku","persie","gideon","nii","sammy"];
-var name = prompt("what's your name.");
+var name = prompt("What is your name");
 
 guests.includes(name);
-guests.push("nesta");
-if (guests.includes(name)){
-alert("You are Welcome. ;)");
-} else {
-    alert("Sorry, I don't see your name in the List.");
-}
 
+guests.push("nesta");
+
+guests.pop("nesta");
+if (guests.includes(name)) {
+    
+   alert("You are welcome");
+} else {
+    alert("Sorry I did not see your name list.");
+}
 //console.log(guests.length);
 //console.log(guests[0]);
